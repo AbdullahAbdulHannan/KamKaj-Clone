@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+        /* body{
+            background-image: url(./images/background.avif);
+        } */
+
+        .l {
+            height: 50px;
+        }
+
+        .b {
+            text-decoration: none;
+            color: black;
+        }
+
+        .b:hover {
+            text-decoration: underline;
+        }
+
+        .c {
+            margin-left: 600px;
+        }
+
+        .d {
+            color: orangered;
+        }
+
+        .e {
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .f {
+            background-color: orangered;
+            outline: none;
+            border-color: white;
+            width: 270px;
+        }
+
+        .g {
+            width: 200px;
+
+        }
+
+        .h {
+            width: 300px;
+        }
+
+        .ab {
+            background-color: rgb(247, 236, 236);
+        }
+
+        .j {
+            width: 100px;
+
+        }
+
+        .k {
+            width: 200px;
+        }
+
+        .ac {
+            background-image: url(./images/6324e4e7bff2435080b492e4ff312176.jpg);
+            height: 280px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: auto;
+        }
+        .ac:hover{
+            transform: scale(1.05);
+        }
+
+        .ae {
+            list-style-type: none;
+            list-style-image: url(./images/home-make-unique-7.png);
+            font-weight: bold;
+        }
+
+        .jj {
+            font-size: 50px;
+            color: white;
+        }
+
+        .slider {
+            width: 500px;
+            height: 300px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .image-container {
+            width: 1500px;
+            background-color: pink;
+            height: 300px;
+            clear: both;
+            position: relative;
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+        .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+        .slide {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+
+        #slide-1:target~.image-container {
+            left: 0px;
+        }
+
+        #slide-2:target~.image-container {
+            left: -500px;
+        }
+
+        #slide-3:target~.image-container {
+            left: -1000px;
+        }
+
+        .buttons {
+            position: relative;
+            top: -20px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            height: 15px;
+            width: 15px;
+            border-radius: 50px;
+            background-color: lightgreen;
+        }
+
+        .mm {
+            background-image: url(./images/pngtree-black-minimalist-atmospheric-wooden-background-picture-image_965794.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .bb{
+            width: 50px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="ab pb-5">
+        <div class="container ">
+            <img src="./images/logo.png" class="l" alt="">
+            <span class="c ">
+                <a href="" class="justify-content-end b">Why kam kaj?</a>&nbsp;&nbsp;&nbsp;
+                <a href="" class="justify-content-end b">Work with us</a>&nbsp;&nbsp;&nbsp;
+                <img src="./images/accept-call-icon.webp " class="bb" alt="">
+            </span>
+        </div><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
+        <div class="row container-fluid ">
+            <div class="col-md-8 ">
+                <h1 class="mt-5 ms-5"><span class="d">Skilled Professional </span> At Your <br> Doorstep.</h1>
+                <p class="ms-5">Kam Kaj is a leading multiple service provider company catering to your 360 needs with
+                    quality
+                    guaranteed. <br>
+                    The aim and priority of Kam Kaj are to add value to our consumers' lives by providing smart
+                    solutions to
+                    all their problems. Our pride is providing the most extensive range of services. From home
+                    maintenance
+                    to personal assistance. We make sure that your safety is never compromised. This is why we hire all
+                    the
+                    staff under the roof of Kam Kaj, just for your satisfaction.</p>
+                <select class="form-select e g  d-inline">
+                    <option selected>Karachi</option>
+                    <option value="1">A</option>
+                    <option value="2">B</option>
+                    <option value="3">c</option>
+                </select>
+                <input class="form-control me-2 h d-inline" type="search" placeholder="Search" aria-label="Search">
+            </div>
+            <div class="col-3 mt-5">
+                <div class="border rounded bg-dark p-3">
+                    <h3 class="text-light">Book your service</h3>
+                    <input type="text" class="form-control e" placeholder="Name" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    <input type="text" class="form-control e" placeholder="03XXXXXXXXX" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    <select class="form-select e">
+                        <option selected>Select services</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <select class="form-select e ">
+                        <option selected>Select City</option>
+                        <option value="1">A</option>
+                        <option value="2">B</option>
+                        <option value="3">c</option>
+                    </select>
+                    <input type="text" class="form-control e" placeholder="Address" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    <button class="text-light text-center f ">Request A Call</button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pb-5">
+        <h1 class="text-center">Our Top Services</h1>
+        <p class="text-center">Kam Kaj provides ultimate installations, repairs, maintenance, and grooming services at
+            your doorstep.</p>
+        <div class="row d-flex justify-content-around">
+            <div class="col-1">
+                <div class="card " style="width: 10rem;">
+                    <img src="./images/images.jfif" class="card-img-top p-5" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Home Appliances</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="card " style="width: 10rem;">
+                    <img src="./images/images.jfif" class="card-img-top p-5" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Home Appliances</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="card " style="width: 10rem;">
+                    <img src="./images/images.jfif" class="card-img-top p-5" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Home Appliances</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="card " style="width: 10rem;">
+                    <img src="./images/images.jfif" class="card-img-top p-5" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Home Appliances</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="card " style="width: 10rem;">
+                    <img src="./images/images.jfif" class="card-img-top p-5" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Home Appliances</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="card " style="width: 10rem;">
+                    <img src="./images/images.jfif" class="card-img-top p-5" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Home Appliances</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="card " style="width: 10rem;">
+                    <img src="./images/images.jfif" class="card-img-top p-5" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Home Appliances</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="card " style="width: 10rem;">
+                    <img src="./images/images.jfif" class="card-img-top p-5" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Home Appliances</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <h1 class="text-center">Recommended Services</h1>
+        <p class="text-center">Services highly recommended by our valuable customers.</p>
+        <div class="row mt-3">
+            <div class="col-3 ">
+                <div class="border rounded  ac ">
+
+                    <h3 class="p-5  text-center text-light">AC install and repair services</h3>
+                    <center> <button class="bg-dark text-light ps-3 pe-3 m-5"> Book Now</button></center>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="border rounded ac">
+
+                    <h3 class="p-5 text-center text-light">AC install and repair services</h3>
+                    <center> <button class="bg-dark text-light ps-3 pe-3 m-5"> Book Now</button></center>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="border rounded ac">
+
+                    <h3 class="p-5 text-center text-light">AC install and repair services</h3>
+                    <center> <button class="bg-dark text-light ps-3 pe-3 m-5"> Book Now</button></center>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="border rounded ac">
+
+                    <h3 class="p-5 text-center text-light">AC install and repair services</h3>
+                    <center> <button class="bg-dark text-light ps-3 pe-3 m-5"> Book Now</button></center>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-3 ">
+                <div class="border rounded ac">
+
+                    <h3 class="p-5 text-center text-light">AC install and repair services</h3>
+                    <center> <button class="bg-dark text-light ps-3 pe-3 m-5"> Book Now</button></center>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="border rounded ac">
+
+                    <h3 class="p-5 text-center text-light">AC install and repair services</h3>
+                    <center> <button class="bg-dark text-light ps-3 pe-3 m-5"> Book Now</button></center>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="border rounded ac">
+
+                    <h3 class="p-5 text-center text-light">AC install and repair services</h3>
+                    <center> <button class="bg-dark text-light ps-3 pe-3 m-5"> Book Now</button></center>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="border rounded ac">
+
+                    <h3 class="p-5 text-center text-light">AC install and repair services</h3>
+                    <center> <button class="bg-dark text-light ps-3 pe-3 m-5"> Book Now</button></center>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-3">
+                <div class="border rounded ac">
+
+                    <h3 class="p-5 text-center text-light">AC install and repair services</h3>
+                    <center> <button class="bg-dark text-light ps-3 pe-3 m-5"> Book Now</button></center>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="border rounded ac">
+
+                    <h3 class="p-5 text-center text-light">AC install and repair services</h3>
+                    <center> <button class="bg-dark text-light ps-3 pe-3 m-5"> Book Now</button></center>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="border rounded ac">
+
+                    <h3 class="p-5 text-center text-light">AC install and repair services</h3>
+                    <center> <button class="bg-dark text-light ps-3 pe-3 m-5"> Book Now</button></center>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="border rounded ac">
+
+                    <h3 class="p-5 text-center text-light">AC install and repair services</h3>
+                    <center> <button class="bg-dark text-light ps-3 pe-3 m-5"> Book Now</button></center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="text-center">Customer Experience</h1>
+        <p class="text-center">Valuable customers sharing their reviews after availing our services.</p>
+        <figure class="figure">
+            <iframe width="360" height="315" src="https://www.youtube.com/embed/ZZLvelVhXUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>" 
+            
+          </figure>
+          <iframe width="360" height="315" src="https://www.youtube.com/embed/ZZLvelVhXUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>" 
+        
+        </figure>
+        <iframe width="360" height="315" src="https://www.youtube.com/embed/ZZLvelVhXUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>" 
+        
+      </figure>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <img src="./images/home-tools.png" alt="">
+            </div>
+            <div class="col-6">
+                <h1>Why Choose Kam Kaj?</h1>
+                <p>Kam Kaj is a value addition which covers all 360 services under one platform. Our motive is to
+                    provide best services to our corporate, commercial, and residential customers. Our main key
+                    components to success are :</p>
+                <ul>
+                    <li class="ae">
+                        Vetted and background-checked in house staff
+                    </li>
+                    <li class="ae">
+                        Vetted and background-checked in house staff
+                    </li>
+                    <li class="ae">
+                        Vetted and background-checked in house staff
+                    </li>
+                    <li class="ae">
+                        Vetted and background-checked in house staff
+                    </li>
+                    <li class="ae">
+                        Vetted and background-checked in house staff
+                    </li>
+                    <li class="ae">
+                        Vetted and background-checked in house staff
+                    </li>
+                    <li class="ae">
+                        Vetted and background-checked in house staff
+                    </li>
+                    <li class="ae">
+                        Vetted and background-checked in house staff
+                    </li>
+                    <li class="ae">
+                        Vetted and background-checked in house staff
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid bg-light d-flex justify-content-around">
+        <img src="./images/home-mobile.png" alt="">
+        <div>
+            <h4 class="mt-5"> Download Kam Kaj App</h4>
+            Make your life easier by downloading Kam Kaj app. <br>
+            <img src="./images/home-app-store.png" alt="">
+            <img src="./images/home-play-store.png" alt="">
+        </div>
+        <div>
+            <img src="./images/barcode.png" alt="" class="mt-5"><br>
+            Scan QR Code
+        </div>
+    </div>
+    <div class="container mt-4">
+        <h1 class="text-center">Trusted by Leading Organizations</h1>
+        <div class="slider">
+            <span id="slide-1"></span>
+            <span id="slide-2"></span>
+            <span id="slide-3"></span>
+            <div class="image-container">
+                <img src="./images/borjan-logo.png" class="slide" width="500" height="300" />
+                <img src="./images/outfitters-logo.png" class="slide" width="500" height="300" />
+                <img src="./images/creekclub-logo.png" class="slide" width="500" height="300" />
+            </div>
+            <div class="buttons">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mm pb-5">
+        <div class="d-flex justify-content-around  mt-3 ">
+
+            <div>
+                <img src="./images/logo-light.png" alt="" class="l"><br>
+                <p class="text-light mt-5">When it comes to Kam Kaj, the object of the word 'Kam' reflects our motive to
+                    <br> add value to our customers'
+                    lives by providing all the <br> essential services in their day-to-day lives. On the other hand, the
+                    word
+                    'Kaj' <br>highlights our motive to reduce the unemployment from Pakistan by hiring <br>in-house
+                    staff whom we
+                    train in any given skills.
+                </p>
+                <span class="text-light jj"> Follow Us On
+                    <i class="fa-brands fa-facebook "></i>
+                    <i class="fa-brands fa-instagram "></i>
+                    <i class="fa-brands fa-twitter "></i></span>
+            </div>
+            <div>
+                <h1 class="text-light mt-5">Company</h1>
+
+                <span class="text-light"> Blog <br>
+                    About Us <br>
+                    Careers <br>
+                    Press <br>
+                    Videos <br></span>
+            </div>
+            <div>
+                <h1 class="text-light mt-5">Company</h1>
+
+                <span class="text-light"> Blog <br>
+                    About Us <br>
+                    Careers <br>
+                    Press <br>
+                    Videos <br></span>
+            </div>
+        </div>
+        <hr>
+        <span class="text-light"> Copyright © 2017 - 2023 Kam Kaj. Kam Kaj logo and related marks are registered
+            Trademarks of Kam Kaj. </span>
+        <span class="m-5 text-light">
+            <i class="fa-brands fa-apple"></i>
+            
+        </span>    
+
+    </div>
+    </div>
+</body>
+
+</html>
